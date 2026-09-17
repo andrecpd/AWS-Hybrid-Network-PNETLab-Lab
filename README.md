@@ -103,3 +103,44 @@ A arquitetura será dividida em dois ambientes principais:
                            |
                     Windows / Linux
                          Clients
+```
+
+---
+
+# 📁 Estrutura do Repositório
+
+```text
+AWS-Hybrid-Network-PNETLab-Lab/
+├── README.md
+├── docs/
+│   ├── agile/
+│   ├── architecture/
+│   ├── diagrams/
+│   └── troubleshooting/
+├── aws/
+│   ├── vpc/
+│   ├── security-groups/
+│   ├── active-directory/
+│   └── cisco-ise/
+├── terraform/
+│   ├── environments/
+│   ├── modules/
+│   └── scripts/
+├── pnetlab/
+│   ├── firewall/
+│   ├── routers/
+│   ├── switches/
+│   └── clients/
+├── configs/
+│   ├── fortigate/
+│   ├── cisco/
+│   └── ise/
+├── automation/
+│   ├── python/
+│   └── ansible/
+├── tests/
+└── evidence/
+    ├── screenshots/
+    ├── logs/
+    └── wireshark/
+```
